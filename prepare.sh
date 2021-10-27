@@ -32,5 +32,7 @@ sudo -H pip3 install torchvision-0.10.0a0+300a8a4-cp36-cp36m-linux_aarch64.whl
 rm torch-1.9.0a0+gitd69c22d-cp36-cp36m-linux_aarch64.whl
 rm torchvision-0.10.0a0+300a8a4-cp36-cp36m-linux_aarch64.whl
 
+pip3 install Pillow
+
 # update protobuf (3.15.5) Install Caffe2
 # $ sudo -H pip3 install -U protobuf
