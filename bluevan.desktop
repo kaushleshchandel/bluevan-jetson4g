@@ -2,6 +2,6 @@
 Type=Application
 Encoding=UTF-8
 Name=Bluevan.io
-Exec= "/usr/bin/python3" "/usr/local/bin/bluevan/app/main.py"
+Exec= "/usr/local/bin/bluevan/app/start"
 Terminal=true
 Name[en_US]=bluevan.desktop
