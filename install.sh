@@ -71,8 +71,9 @@ fi
 
 echo "Installing 'Bluevan' as a systemd service"
 cp -v bluevan.service "/lib/systemd/system/"
+systemctl enable bluevan.service
+systemctl start bluevan.service
 systemctl daemon-reload
-systemctl disable bluevan.service
 
 # ---------------------- pipng -----------------------
 # ----------------------------------------------------

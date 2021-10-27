@@ -16,7 +16,6 @@ cd $WORKDIR
 
 # Copy application
 echo "Removing Directories"
-rm -r "/usr/local/share/bluevan/"
 rm -r "/usr/local/bin/bluevan"
 rm ~/Desktop/bluevan.desktop
 rm ~/Desktop/landscape.desktop
