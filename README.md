@@ -6,7 +6,7 @@ Install git client:
 sudo apt-get update
 sudo apt-get install git
 
-git clone -b bluevan https://github.com/kaushleshchandel/bluevan-jetson4g.git
+git clone -b main https://github.com/kaushleshchandel/bluevan-jetson4g.git
 
 sudo sh ./bluevan-jetson4g/install.sh
 
