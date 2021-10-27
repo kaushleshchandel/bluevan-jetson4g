@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#pysimplegui
+sudo pip3 install pySimpleGUI
+#cv2
+sudo pip3 install opencv-python
+
 # install the dependencies (if not already onboard)
 sudo apt-get install python3-pip libjpeg-dev libopenblas-dev libopenmpi-dev libomp-dev
 sudo -H pip3 install future
