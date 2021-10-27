@@ -20,7 +20,6 @@ rm -r "/usr/local/share/bluevan/"
 rm -r "/usr/local/bin/bluevan"
 
 echo "Removing the 'Bluevan' service"
-systemctl remove bluevan.service
 rm "/lib/systemd/system/bluevan.service"
 systemctl daemon-reload
 

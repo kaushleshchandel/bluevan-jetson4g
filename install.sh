@@ -7,24 +7,17 @@ fi
 
 WORKDIR="$(dirname "$0")"
 cd $WORKDIR
-
-DESTPATH_APPDATA="/usr/local/share/bluevan/"
-DESTPATH_BIN="/usr/local/bin/bluevan"
-SYSTEMD_PATH="/lib/systemd/system/"
+ 
 
 # ------ Install files to the correct location -------
 # ----------------------------------------------------
 
 # Copy application
 echo "Copy appdate"
-mkdir -p $DESTPATH_APPDATA
-cp -v -R  * $DESTPATH_APPDATA
-chmod 755 -R $DESTPATH_APPDATA
+mkdir -p "/usr/local/bin/bluevan"
+cp -v -r * "/usr/local/bin/bluevan"
+chmod 755 -R "/usr/local/bin/bluevan"
 
-# Copy executable
-echo "Copy executable"
-cp -v ./bin/bluevan $DESTPATH_BIN
-chmod 755 $DESTPATH_BIN
 
 # Be sure normal users can't read our config file!
 #chmod 600 $DESTPATH_APPDATA"settings.ini"
@@ -60,7 +53,7 @@ fi
 # ----------------------------------------------------
 
 echo "Installing 'Bluevan' as a systemd service"
-cp -v bluevan.service $SYSTEMD_PATH
+cp -v bluevan.service "/lib/systemd/system/"
 systemctl daemon-reload
 systemctl disable bluevan.service
 
