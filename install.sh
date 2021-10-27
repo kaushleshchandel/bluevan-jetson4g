@@ -31,6 +31,11 @@ chmod -R 777 ~/Desktop/bluevan.desktop
 chmod -R 777 ~/Desktop/landscape.desktop
 chmod -R 777 ~/Desktop/portrait.desktop
 
+chown kaushlesh ~/Desktop/bluevan.desktop
+chown kaushlesh ~/Desktop/landscape.desktop
+chown kaushlesh ~/Desktop/portrait.desktop
+
+
 # Be sure normal users can't read our config file!
 #chmod 600 $DESTPATH_APPDATA"settings.ini"
 
