@@ -22,9 +22,9 @@ cp bluevan.desktop ~/Desktop/
 cp portrait.desktop ~/Desktop/
 cp landscape.desktop ~/Desktop/
 
-chmod 777 -R "~/Desktop/bluevan.desktop"
-chmod 777 -R "~/Desktop/landscape.desktop"
-chmod 777 -R "~/Desktop/portrait.desktop"
+chmod 777 -R ~/Desktop/bluevan.desktop
+chmod 777 -R ~/Desktop/landscape.desktop
+chmod 777 -R ~/Desktop/portrait.desktop
 
 #chmod +x ~/Desktop/bluevan.desktop
 #chmod +x ~/Desktop/landscape.desktop
