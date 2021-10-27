@@ -18,6 +18,9 @@ cd $WORKDIR
 echo "Removing Directories"
 rm -r "/usr/local/share/bluevan/"
 rm -r "/usr/local/bin/bluevan"
+rm "~/Desktop/Bluevan"
+rm "~/Desktop/Landscape"
+rm "~/Portrait"
 
 echo "Removing the 'Bluevan' service"
 rm "/lib/systemd/system/bluevan.service"

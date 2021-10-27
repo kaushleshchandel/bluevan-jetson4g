@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Bluevan.io
+Exec= "/usr/bin/python3" "/usr/local/bin/bluevan/app/main.py"
+Terminal=true
+Name[en_US]=bluevan.desktop

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Landscape
+Exec=sh "/home/kaushlesh/scripts/l.sh"
+Terminal=true

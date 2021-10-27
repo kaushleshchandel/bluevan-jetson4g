@@ -14,10 +14,17 @@ cd $WORKDIR
 
 # Copy application
 echo "Copy appdate"
-mkdir -p "/usr/local/bin/bluevan"
+mkdir -p "/usr/local/bin/bluevan/"
 cp -v -r * "/usr/local/bin/bluevan"
 chmod 755 -R "/usr/local/bin/bluevan"
 
+cp bluevan.desktop "~/Desktop/Bluevan"
+cp portrait.desktop "~/Desktop/Portrait"
+cp landscape.desktop "~/Desktop/Landscape"
+
+chmod 777 -R "~/Desktop/Bluevan"
+chmod 777 -R "~/Desktop/Portrait"
+chmod 777 -R "~/Desktop/Landscape"
 
 # Be sure normal users can't read our config file!
 #chmod 600 $DESTPATH_APPDATA"settings.ini"

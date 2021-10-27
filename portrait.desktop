@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Landscape
+Exec=sh "/home/kaushlesh/scripts/p.sh"
+Terminal=true
+
+Name[en_US]=Portrait

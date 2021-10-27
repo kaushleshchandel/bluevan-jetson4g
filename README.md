@@ -8,7 +8,7 @@ sudo apt-get install git
 
 git clone -b bluevan https://github.com/kaushleshchandel/bluevan-jetson4g.git
 
-sudo sh ./bluevan/install.sh
+sudo sh ./bluevan-jetson4g/install.sh
 
 sudo systemctl start bluevan.service
 To automatically start bluevan at boot:
