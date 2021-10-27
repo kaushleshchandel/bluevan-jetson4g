@@ -19,15 +19,16 @@ cp -v -r * "/usr/local/bin/bluevan"
 chmod 755 -R "/usr/local/bin/bluevan"
 
 cp bluevan.desktop ~/Desktop/
-chmod +x ~/Desktop/bluevan.desktop
 cp portrait.desktop ~/Desktop/
-chmod +x ~/Desktop/portrait.desktop
 cp landscape.desktop ~/Desktop/
-chmod +x ~/Desktop/landscape.desktop
 
-chmod 777 -R "~/Desktop/Bluevan"
-chmod 777 -R "~/Desktop/Portrait"
-chmod 777 -R "~/Desktop/Landscape"
+chmod 775 -R "~/Desktop/bluevan.desktop"
+chmod 775 -R "~/Desktop/landscape.desktop"
+chmod 775 -R "~/Desktop/portrait.desktop"
+
+chmod +x ~/Desktop/bluevan.desktop
+chmod +x ~/Desktop/landscape.desktop
+chmod +x ~/Desktop/portrait.desktop
 
 # Be sure normal users can't read our config file!
 #chmod 600 $DESTPATH_APPDATA"settings.ini"
