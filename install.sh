@@ -36,8 +36,8 @@ chmod 777 -R "~/Desktop/portrait.desktop"
 # --- Install the required distribution packages -----
 # ----------------------------------------------------
 
-echo "Installing required distribution packages"
-apt-get update
+#echo "Installing required distribution packages"
+#apt-get update
 
 if [ ! -e /usr/bin/pip3 ]; then
     apt-get -y install python3-pip
